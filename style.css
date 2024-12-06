@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(216, 65, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#nam{
+    padding: 16px 32px;
+    width: 50%;
+    border-radius: 16px;
+    border: none;
+    transition: all 0.3s;
+}
+
+#nam:hover{
+    width: 60%;
+}
+
+#btn{
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(216, 65, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+section{
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.box{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#gen{
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    width: 20%;
+    text-align: center;
+}
+
+#gen:hover{
+    background-color: black;
+    color: white;
+}
+
+.box h2{
+    color: white;
+    font-size: 5vmax;
+}
+
+.box p{
+    pad: 8px 16px;
+    color: aliceblue;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;align-items: center;
+    font-size: 2vmax;
+}
